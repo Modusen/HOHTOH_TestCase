@@ -18,6 +18,7 @@ public class Main {
         System.out.println(productsImpl.productsList);
 
         System.out.println(productsImpl.deleteProduct(new Product(1, "Closet")));
+        System.out.println(productsImpl.deleteProduct(new Product(16, "Closet")));
         System.out.println(productsImpl.deleteProduct(product4));
         System.out.println(productsImpl.productsList);
 

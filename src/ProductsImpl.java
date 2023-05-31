@@ -17,7 +17,7 @@ public class ProductsImpl {
     public boolean deleteProduct(Product product) {
         for (Product productInTheList : productsList) {
             if (productInTheList.getId() == product.getId()) {
-                productsList.remove(product);
+                productsList.remove(productInTheList);
                 return true;
             }
         }
