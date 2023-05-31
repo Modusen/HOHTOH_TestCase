@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductImpl {
+public class ProductsImpl {
     List<Product> productsList = new ArrayList<>();
 
     public boolean addProduct(Product product) {
